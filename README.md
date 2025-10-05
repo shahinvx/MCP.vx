@@ -85,21 +85,21 @@ The `create_mcp_project.py` script generates a well-organized project structure:
 my_first_mcp_server/
 ├── 📋 fastmcp.json                    # MCP server configuration
 ├── 📦 requirements.txt                # Python dependencies
-├── 🔧 setup.bat / setup.sh           # Platform-specific setup scripts
-├── 🌍 .env.example                   # Environment variables template
-├── 📖 README.md                      # Project documentation
-├── 🚫 .gitignore                     # Git ignore rules
+├── 🔧 setup.bat / setup.sh            # Platform-specific setup scripts
+├── 🌍 .env.example                    # Environment variables template
+├── 📖 README.md                       # Project documentation
+├── 🚫 .gitignore                      # Git ignore rules
 └── 📂 src/
     ├── 📂 server/
-    │   ├── 🚀 app.py                 # Main MCP server entry point
-    │   ├── 📂 tools/                 # 🔧 TOOLS: Actions that DO things
-    │   │   └── calculator_tools.py   # Basic arithmetic operations
-    │   ├── 📂 resources/             # 📊 RESOURCES: Information providers
-    │   │   └── calculator_resource.py # Help info & operation lists
-    │   └── 📂 prompts/               # 💬 PROMPTS: Conversation templates
-    │       └── calculator_prompts.py  # Welcome, help & error messages
+    │   ├── 🚀 app.py                   # Main MCP server entry point
+    │   ├── 📂 tools/                   # 🔧 TOOLS: Actions that DO things
+    │   │   └── calculator_tools.py     # Basic arithmetic operations
+    │   ├── 📂 resources/               # 📊 RESOURCES: Information providers
+    │   │   └── calculator_resource.py  # Help info & operation lists
+    │   └── 📂 prompts/                 # 💬 PROMPTS: Conversation templates
+    │       └── calculator_prompts.py   # Welcome, help & error messages
     └── 📂 tests/
-        └── test_calculator.py        # Simple unit tests
+        └── test_calculator.py          # Simple unit tests
 ```
 
 ## 🧩 Understanding MCP Components
@@ -495,3 +495,4 @@ Remember: MCP servers are all about making AI assistants more capable by giving 
 **Happy MCP Development!** 🚀
 
 For questions or issues, check the [troubleshooting section](#troubleshooting) or refer to the [official resources](#resources).
+
